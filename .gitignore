@@ -1,7 +1,7 @@
 # Packages / Compiled code to ignore
 node_modules
-public/bundle.js
-public/bundle.js.map
+dist/bundle.js
+dist/bundle.js.map
 test/__snapshots__
 
 # npm Error Logging
