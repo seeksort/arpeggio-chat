@@ -1,3 +1,13 @@
-const node = document.createTextNode('test');
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-document.getElementById('app').appendChild(node);
+const App = () => {
+  return (
+    <div>
+      <h1>arpeggio apppp</h1>
+      <p>behold arpeggios ... !</p>
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('app'));
