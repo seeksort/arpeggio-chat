@@ -2,8 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <!-- Ensure media queries work on mobile -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+    />
     <title>Arpeggio Chat</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <style>
+      /* Prevent scrolling on page, set page bg color */
+      html, body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background-color: #303f9f;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>

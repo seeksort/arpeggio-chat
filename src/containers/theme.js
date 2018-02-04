@@ -1,19 +1,22 @@
 // Style - theme
 
 import { createMuiTheme } from 'material-ui/styles';
-import Typography from 'material-ui/Typography';
-import purple from 'material-ui/colors/purple';
-import green from 'material-ui/colors/green';
-import indigo from 'material-ui/colors/green';
 
 const fontWeightMedium = 500;
 
 const theme = createMuiTheme({
   palette: {
-    primary: purple,
-    secondary: green,
-    background: {
-      default: indigo[600]
+    primary: {
+      light: '#666ad1',
+      main: '#303f9f',
+      dark: '#001970',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#88ffff',
+      main: '#4dd0e1',
+      dark: '#009faf',
+      contrastText: '#000',
     },
   },
   typography: {
@@ -31,6 +34,9 @@ const theme = createMuiTheme({
   // To override properties specific to a component type
   overrides: {
     MuiButton: {
+      root: {
+        margin: 8,
+      },
       label: {
         textTransform: 'none', // MUI default is all caps
       },
