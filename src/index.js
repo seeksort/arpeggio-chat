@@ -1,13 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-  return (
-    <div>
-      <h1>arpeggio apppp</h1>
-      <p>behold arpeggios ... !</p>
-    </div>
-  );
-};
+import App from './containers/App';
 
 ReactDOM.render(<App />, document.getElementById('app'));
