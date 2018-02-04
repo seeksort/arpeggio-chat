@@ -4,7 +4,7 @@ import Typography from 'material-ui/Typography';
 const styles = {
   header: {
     flexDirection: 'row',
-    backgroundColor: '#666ad1',
+    backgroundColor: '#666ad1', // #00186f
     margin: -8,
     padding: 8,
   },

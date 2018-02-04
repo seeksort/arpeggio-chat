@@ -16,7 +16,7 @@ const styles = {
     width: '100%',
     flexDirection: 'column',
   },
-  header: {
+  innerChatContainer: {
     padding: 8,
   }
 }
@@ -29,7 +29,7 @@ class ChatContainer extends Component {
       chatArr: [
         {
           userName: 'Huey',
-          text: 'ducktales, ooo ooh',
+          text: 'it\'s gonna take a lot to keep away from you there\'s nothing that a hundred men or more could ever do I bless the rains down in africa',
         },
         {
           userName: 'Dewey',
@@ -135,7 +135,7 @@ class ChatContainer extends Component {
   render() {
     return (
       <div style={styles.chatContainer}>
-        <div style={styles.header}>
+        <div style={styles.innerChatContainer}>
           <ChatHeader />
           <ChatActivity chatArr={this.state.chatArr} />
           <ChatInput />

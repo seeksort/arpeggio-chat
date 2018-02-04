@@ -10,12 +10,19 @@
     <title>Arpeggio Chat</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     <style>
-      /* Prevent scrolling on page, set page bg color */
       html, body {
         margin: 0;
         height: 100%;
-        overflow: hidden;
+        overflow: auto;
         background-color: #303f9f;
+      }
+      /* Prevent scrolling on page in browser*/
+      @media (min-width: 960px) {
+        html, body {
+          margin: 0;
+          height: 100%;
+          overflow: hidden;
+        }
       }
     </style>
   </head>
